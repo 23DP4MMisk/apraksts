@@ -1,0 +1,60 @@
+@import url(https://fonts.googleapis.com/css?family=Playfair+Display:regular,500,600,700,800,900,italic,500italic,600italic,700italic,800italic,900italic);
+
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Playfair Display', 'regular';
+    font-weight: 500;
+    margin: 0px;
+}
+
+header{
+    background-color: #4D85DD;
+
+}
+
+
+nav{
+    padding: 20px;
+    display: flex;
+    justify-content: center ;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    color: black;
+    margin-right: 70px;
+    margin-left: 70px;
+    font-size: 25px;
+    position: relative;
+    transition: color 0.3s ease;
+}
+
+nav a::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    width: 0%;
+    height: 2px;
+    background-color: black;
+    transition: width 0.3s ease;
+}
+
+nav a:hover {
+    color: #ffffff; 
+}
+
+nav a:hover::after {
+    width: 100%;
+}
+
+.hero-container{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+}
