@@ -9,10 +9,10 @@
 <body>
     <header>
         <nav>
-            <a href="">Kontakti</a>
+            <a href="#contact">Kontakti</a>
             <a href="#Funk">Funkcionalitāte</a>
             <a href="#lietcel">Lietotāja ceļvedis</a>
-            <a href="#">Izstrādātāji</a>
+            <a href="#izstrad">Izstrādātāji</a>
             <a href="#lejup">Liejupielāde</a>
         </nav>
     </header>
@@ -190,27 +190,110 @@
     </section>
 
     <section id="izstrad">
-        <div class="izstrad-cont">
-            <div class="izsr-hed">
-                <div class="iztr-text">
-                    <h1>Warehouse izstradatāji</h1>
-                </div>
-
+        <div class="lejup-head">
+            <div class="hed-text">
+             <h1>Warehouse izstradatāji</h1>
+            </div>
+        </div>
+        
+        <div class="team-container"> <!-- flex-контейнер для текста и изображений -->
+    
+            <div class="peop-cont">
                 <div class="ksen-cont">
-                    <div class="ksen-text">
-                        <p>
-                            Warehouse izstradatajs ir Ksenija Lakotko, 
-                            Rīgas Valsts tehnikuma 2 kursa studente.
-
-                            “Manuprāt ši programma palīdz uzraudzīt noliktavu.” 
-
-                        </p>
+                    <div class="ksen-body">
+                      <div class="ksen-text">  
+                            <p>
+                             Warehouse izstrādātājs ir Ksenija Lakotko, <br>
+                             Rīgas Valsts tehnikuma 2. kursa studente.<br>
+                             “Manuprāt, šī programma palīdz uzraudzīt noliktavu.”
+                            </p>
+                       </div>
                     </div>
-                    <img src="./img/line1.png">
+        
+                    <img src="./img/line1.png" alt="Line separator">
+        
+                    <div class="tim-cont">
+                        <div class="tim-body">
+                            <div class="tim-text">
+                                <p>
+                                    Warehouse izstrādātājs ir Timurs Kvačovs, <br>
+                                    Rīgas Valsts tehnikuma 2. kursa students.<br>
+                                    Es ar savu kursabiedru darām kopīgo darbu.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="cont-img">
+                <div class="women-img"> 
+                    <img src="./img/women.jpg" width="300px" height="400px">
+                </div>
+                <div class="men-img">
+                    <img src="./img/men.jpg" width="300px" height="400px">
                 </div>
             </div>
         </div>
+        
+           
+            
+           
     </section>
+
+    <section id="contact">
+        <div class="lejup-head">
+            <div class="hed-text">
+             <h1>Kontakti</h1>
+            </div>
+        </div>
+
+        <div class="cont-contener">
+            <div class="cont-img">
+                <img src="./img/consultation.png" width="300px" height="300px">
+            </div>
+
+            <div class="conten-text">
+                
+                <h1>
+                    Ja vajag palidzibu rakstiet mums :
+                </h1>
+                <div class="email1">
+                    <div class="email-img">
+                        <img src="./img/at.svg" width="30px" height="30px">
+                    </div>
+                    <p>projektsinbox@gmail.com</p>
+                </div>
+                    
+                <div class="email2">
+                    <div class="email-img">
+                        <img src="./img/at.svg" width="30px" height="30px">
+                    </div>
+                    <p>galvenaisinbox@gmail.com</p>
+                </div>
+                
+            </div>
+
+        </div>
+    </section>
+
+
+   <footer>
+        <div class="footer-cont">
+            <h3>Izstrādātāji: Ksenija Lakotko, Timurs Kvačovs</h3>
+            <nav>
+                <a href="#contact">Kontakti</a>
+                <a href="#Funk">Funkcionalitāte</a>
+                <a href="#lietcel">Lietotāja ceļvedis</a>
+                <a href="#izstrad">Izstrādātāji</a>
+                <a href="#lejup">Liejupielāde</a>
+            </nav>
+            <div class="copyright">
+                ©Projeks Warehouse inventory system
+            </div>
+        </div>
+   </footer>
+
     
     <script src="./json/button.js"></script>
     <script src="./json/style.js"></script>
