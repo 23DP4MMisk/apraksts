@@ -57,11 +57,19 @@ nav a:hover::after {
     width: 100%;
 }
 
+
+.hero{
+    height: 800px;
+}
+
+
 .hero-container{
     display: flex;
     justify-content: center;
     flex-direction: row;
     margin-top: 100px;
+    
+    
 
     animation: fadeInUp 1s ease forwards;
 }
@@ -99,9 +107,13 @@ nav a:hover::after {
     border-radius: 50px;
 }
 
+
+
+
+/* section funkcionaliate*/
 #Funk{
     width: auto;
-    height: 915px;
+    height: 800px;
     scroll-margin-top: 90px;
     
 }
@@ -120,8 +132,8 @@ nav a:hover::after {
     height: 80px;
     border-radius: 50px;
     background-color: #ccc0b4;
-    margin-bottom: 50px;
-    margin-top: 100px;
+    margin-bottom: 20px;
+    margin-top: 50px;
 }
 
 .container-cart{
@@ -141,6 +153,13 @@ nav a:hover::after {
     padding: 40px;
     height: 300px;
     border-radius: 50px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.cardcont1:hover, .cardcont2:hover, .cardcont3:hover {
+    transform: scale(1.05);
+    box-shadow: 0 12px 20px rgba(0, 0, 0, 0.3);
+    background-color: #6FAAFF; 
 }
 
 .cart1 h2, .cart2 h2, .cart3 h2{
