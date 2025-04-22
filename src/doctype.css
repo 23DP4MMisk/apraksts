@@ -17,7 +17,7 @@ header{
     z-index: 1000; 
     
     
-}
+} 
 
 
 nav{
@@ -241,6 +241,7 @@ nav a:hover::after {
    
 }
   
+
 #lejup{
     height: 800px;
     scroll-margin-top: 90px;
